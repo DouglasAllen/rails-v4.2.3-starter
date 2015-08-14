@@ -9,8 +9,11 @@ Things you may want to cover:
     https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released/
 
 * System dependencies
+    https://github.com/sstephenson/rbenv
+    https://github.com/bundler/bundler
 
 * Configuration
+    
 
 * Database creation
 
