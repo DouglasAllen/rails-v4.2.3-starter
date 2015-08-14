@@ -1,10 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
+A 'ready to work with' Rails application if you just want to get started. 
+You don't have to wait for gems to install if you have your system set up something like 
+that listed below. The only major requirements are to have Ruby installed and the bundler gem.
+ 
 * Ruby version
     https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released/
 
@@ -48,6 +47,8 @@ Things you may want to cover:
 * TODO's are up to you. Hint:
     $ bundle exec rails s
 
-
+* Start developing
+    $ bundle exec rake -T
+    
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
