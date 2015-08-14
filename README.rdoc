@@ -15,16 +15,18 @@ Things you may want to cover:
     https://github.com/sstephenson/rbenv
     
     $ rbenv install 2.2.2
+    $ ruby -v
     $ rbenv global 2.2.2
+    $ ruby -v    
+    $ gem list
+    *** LOCAL GEMS ***
+
+    bundler (1.10.6)
     
-    https://github.com/bundler/bundler
-    
-    $ gem install bundler
-    
-    $ git clone git@github.com:DouglasAllen/rails-v4.2.3-starter.git
+    $ rbenv rehash
 
 * Configuration
-
+    $ git clone git@github.com:DouglasAllen/rails-v4.2.3-starter.git
     $ cd rails-v4.2.3-starter
     $ bundle install 
 
