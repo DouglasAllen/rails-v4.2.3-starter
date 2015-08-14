@@ -16,18 +16,22 @@ Things you may want to cover:
     $ bundle install
 
 * Database creation
-    $ bundle exec rake db:migrate
+    $ bundle exec rake db:create
 
 * Database initialization
-    $
+    $ bundle exec rake db:migrate
 
 * How to run the test suite
+    $ bundle exec rake test:db
 
 * Services (job queues, cache servers, search engines, etc.)
+    $ bundle exec rake tmp:create
 
 * Deployment instructions
+    $ bundle exec rake about
 
-* ...
+* TODO's are up to you. Hint:
+    $ bundle exec rails s
 
 
 Please feel free to use a different markup language if you do not plan to run
