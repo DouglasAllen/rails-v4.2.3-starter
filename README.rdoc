@@ -13,9 +13,10 @@ Things you may want to cover:
     https://github.com/bundler/bundler
 
 * Configuration
-    
+    $ bundle install
 
 * Database creation
+    $ 
 
 * Database initialization
 
