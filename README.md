@@ -13,10 +13,10 @@ Person, Post, etc.) and encapsulates the business logic that is specific to
 your application. In Rails, database-backed model classes are derived from
 `ActiveRecord::Base`. Active Record allows you to present the data from
 database rows as objects and embellish these data objects with business logic
-methods. You can read more about Active Record in its [README](activerecord/README.rdoc).
+methods. You can read more about Active Record in its [README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/activerecord-4.2.3/README.rdoc).
 Although most Rails models are backed by a database, models can also be ordinary
 Ruby classes, or Ruby classes that implement a set of interfaces as provided by
-the Active Model module. You can read more about Active Model in its [README](activemodel/README.rdoc).
+the Active Model module. You can read more about Active Model in its [README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/activemodel-4.2.3/README.rdoc).
 
 The _Controller layer_ is responsible for handling incoming HTTP requests and
 providing a suitable response. Usually this means returning HTML, but Rails controllers
@@ -25,20 +25,20 @@ manipulate models, and render view templates in order to generate the appropriat
 In Rails, incoming requests are routed by Action Dispatch to an appropriate controller, and
 controller classes are derived from `ActionController::Base`. Action Dispatch and Action Controller
 are bundled together in Action Pack. You can read more about Action Pack in its
-[README](actionpack/README.rdoc).
+[README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/actionpack-4.2.3/README.rdoc).
 
 The _View layer_ is composed of "templates" that are responsible for providing
 appropriate representations of your application's resources. Templates can
 come in a variety of formats, but most view templates are HTML with embedded
 Ruby code (ERB files). Views are typically rendered to generate a controller response,
 or to generate the body of an email. In Rails, View generation is handled by Action View.
-You can read more about Action View in its [README](actionview/README.rdoc).
+You can read more about Action View in its [README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/actionview-4.2.3/README.rdoc).
 
 Active Record, Action Pack, and Action View can each be used independently outside Rails.
-In addition to them, Rails also comes with Action Mailer ([README](actionmailer/README.rdoc)), a library
-to generate and send emails; Active Job ([README](activejob/README.md)), a
+In addition to them, Rails also comes with Action Mailer ([README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/actionmailer-4.2.3/README.rdoc)), a library
+to generate and send emails; Active Job ([README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/activejob-4.2.3/README.md)), a
 framework for declaring jobs and making them run on a variety of queueing
-backends; and Active Support ([README](activesupport/README.rdoc)), a collection
+backends; and Active Support ([README](https://github.com/DouglasAllen/rails-v4.2.3-starter/blob/master/vendor/bundle/gems/activesupport-4.2.3/README.rdoc)), a collection
 of utility classes and standard library extensions that are useful for Rails,
 and may also be used independently outside Rails.
 
